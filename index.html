@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCarePractice</title>
+    <style>
+    
+        main{
+            background-color: #f8eefc;
+        }
+
+        #logoName {
+            text-align: center;
+        }
+
+
+        #firstQus { 
+            color: #d14030;
+            background-color: #fa9084b6;
+            
+        }
+
+        #secondQus {
+            color: #5ed130;
+            background-color: #b0f196b9;
+
+        }
+#thirdQus {
+    color: #3073d1;
+    background-color: #9dc2f5b7;
+}
+
+#fourthQus {
+    color: #d19e30;
+    background-color: #f7e0afc2;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 id="logoName">Code care</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Tips</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Class 1 lab</h1>
+     <p>We will track your health while learning also will give you some tips for cool learning experince <br></p>
+     <p>We would like to collect some information about you :)</p><Br>
+        <p id="firstQus">what is your name ?</p>
+        <p id="secondQus">how many months you have been learning coding?</p>
+        <p id="thirdQus">how old are you?</p>
+        <p id="fourthQus">how many hours per day you spend infornt of laptop?</p>
+
+
+    </main>
+
+    <footer>
+&copy; SARAALSHATER
+    
+    </footer>
+
+    <script>
+
+        let userName=prompt('What is your name ?');
+        console.log(userName);
+
+        let codingExperince=prompt('How many months you have been learning coding?');
+        console.log(codingExperince);
+
+        let age=prompt('How old are you?');
+        console.log(age);
+
+        let hours=prompt('How many hours per day you spend infornt of laptop?');
+        console.log(hours);
+
+        alert('Hey '+ userName + ' You have been learning coding since ' + codingExperince + ' months ');
+        alert('You spend ' + hours + ' infront of the laptop everyday');
+        alert('You are still '+ age + ' ,so please dont forget to take care of your physical and mental health :)');
+        
+    </script>
+</body>
+</html>
